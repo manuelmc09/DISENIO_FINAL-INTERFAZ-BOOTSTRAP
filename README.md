@@ -1,2 +1,2 @@
-# ejerciciosHTMLyCSS
-Repositorio para los ejercicios de HTML y CSS 
+# ejerciciosMARCAS
+Repositorio para los ejercicios de HTML 5/CSS 3/Bootstrap/Wordpress...
