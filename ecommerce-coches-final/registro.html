@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Awesome font  -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Pagina de registro de usuarios</title>
+</head>
+<body>
+
+    <div class="container m-5 p-5"></div>
+
+    <div class="container-fluid mt-5">
+             
+      <!-- Barra de Navegación-->
+      <header class="row">
+        <nav class="navbar navbar-expand-sm navbar-light bg-primary fixed-top mt-5"><a href="#" class="navbar-brand"> <img src="images/logotipo2.PNG" alt="logo empresa" title="logo DIW-co" width="100" height="100"></a>
+           <button class="navbar-toggler navbar-toggler-right mr-5" type="button" data-toggle="collapse" data-target="#barra-navegacion" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Boton navigation">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <span class="navbar-text text-white mr-5 d-none d-sm-none d-md-block small">Coches nuevos y de ocasión <br> Asegura tu bienestar con nosotros</span>
+           <div class="collapse navbar-collapse" id="barra-navegacion">
+               <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                       <a class="nav-link" aria-current="page" href="../index.html">Nuestra tienda</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                   </li>
+                   <li class="nav-item dropdown droptop">
+                     <a class="nav-link active dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">Noticias</a>
+                     <div class="dropdown-menu">
+                       <a class="dropdown-item" href="acceso.html">Acceso Usuarios</a>
+                       <a class="dropdown-item" href="carrito.html">Carrito de la compra</a>
+                     </div>
+                   </li>
+                   <li class="nav-item dropdown dropdown mr-5">
+                     <a class="nav-link dropdown-toggle" data-toggle="dropdown">Contacto</a>
+                     <div class="dropdown-menu">
+                         <a class="dropdown-item" href="contacto.html">¿Dónde estamos?</a>
+                         <a class="dropdown-item" href="#">Servicio al cliente</a>
+                     </div>
+                   </li>
+               </ul>
+           </div>
+       </nav>
+     </header>
+
+
+        <!-- Formulario de registro de usuarios -->
+        <div class="row justify-content-center mt-5">
+          <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+            <h3 class="text-center text-md-start text-capitalize btn-info mb-5">Registro</h3>
+         </div>
+            <div class="col-8 col-sm-8 col-md-4 col-lg-4 border">
+              <section id="registro">
+                <h5 class="text-center mt-5">Formulario de Registro</h5>
+                <hr>
+                <form>
+                    <div class="form-group mr-3">
+                        <label for="usuario" class="col-label-sm">Usuario: </label>
+                        <input type="text" class="form-control form-control-sm" placeholder="Introduzca su usuario ..." required/>
+                    </div>
+                    <div class="form-group mr-3">
+                        <label for="password" class="col-label-sm">Contraseña: </label>
+                        <input type="password" class="form-control form-control-sm" placeholder="Introduzca su contraseña..." required/>
+                    </div>
+                    <div class="form-group mr-3">
+                        <label for="password" class="col-label-sm">Confirmar contraseña: </label>
+                        <input type="password" class="form-control form-control-sm" placeholder="Confirme su contraseña" required />
+                    </div>
+                    <div class="form-check form-check-inline ml-4">
+                        <input type="radio" name="sexo" class="form-check-input" value="h" />
+                        <label class="form-check-label">Hombre</label>
+                      </div>
+                      <div class="form-check form-check-inline ml-4">
+                        <input type="radio" name="sexo" class="form-check-input" value="m" />
+                        <label class="form-check-label">Mujer</label>
+                      </div>
+                      <div class="text-center">
+                        <p>¿Ya tienes cuenta? <a href="acceso.html">Inicia sesión...</a></p>
+                    </div>
+                      <hr>
+                      <br>
+                      <button class="btn btn-warning mb-3" type="submit" id="boton-formulario">Registrarse</button>
+                </form>
+                </section>
+            </div>
+        </div>
+
+
+             <!-- PIE DE PÁGINA  -->
+        <footer class="row bg-primary justify-content-center mt-3 p-3">
+            <div class="col-12 col-md-6 w-100">
+              <p class="text-center text-white">DIW&co Todos los derechos reservados</p>
+            </div>
+            <div class="col-12 col-md-12 text-center mb-3"> 
+              <a href="../index.html" class="text-dark">Inicio</a> |
+              <a href="nosotros.html" class="text-dark">Acerca de</a> |
+              <a href="contacto.html" class="text-dark">Contacto</a>
+            </div>
+            <div class="col-12 col-md-12 text-center mb-3 mt-3 position-relative">
+               <h6>33008, Calle Mateo II, SPA</h6>
+               <img src="images/logotipo2.PNG" alt="logo empresa" title="logo DIW-co" width="100" height="100"/>
+               <p class="text-center"><i class="fa fa-phone" aria-hidden="true"></i>
+                +923042275725
+              </p>
+              <p class="text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                diwandco@gmail.com
+              </p>
+            </div>
+            <div class="col-12 col-md-12 mb-3 mt-3">
+              <nav class="nav m-2 justify-content-center badge-warning rounded">
+                <a  href="https://www.facebook.com" target="_blank" class="nav-link"><i class="fa fa-facebook text-center" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="nav-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="nav-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="nav-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </nav>
+            </div>
+        </footer>
+             
+      </div>
+  
+      
+  
+      <!-- Optional JavaScript; choose one of the two! -->
+  
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+  
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+
+          
+      </script>
+       <!-- Script que usando la funcion .keypress() obiene el evento de pulsar las teclas en la 
+       barra de busqueda de producto, capturando la clase con .attr('class'), luego modificamos 
+       el color en funcion de que pulsemos teclas o no -->
+       <script>
+        $(function(){
+        $("#registro").keypress(function(){
+          var clase=$('#boton-formulario').attr('class');
+        if(clase.includes("btn-warning")){
+          $('#boton-formulario').removeClass('btn-warning');
+        $('#boton-formulario').addClass('btn-secondary');
+        }else{
+          $("#boton-formulario").removeClass('btn-secondary');
+          $("#boton-formulario").addClass('btn-warning');
+        }
+      });
+      })
+      </script>
+</body>
+</html>
