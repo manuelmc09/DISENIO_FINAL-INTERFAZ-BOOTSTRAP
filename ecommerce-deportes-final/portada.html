@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Awesome font  -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Portada deportes</title>
+</head>
+<body>
+
+    <div class="container m-5 p-5"></div>
+
+    <div class="container-fluid mt-5">
+            <!-- Alerta antes de la barra de navegación -->
+            <div class="alert alert-dismissible fade show alert-warning fixed-bottom">
+              Aviso de Cookies: Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. Si acepta o continúa navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información aquí <a href="#">Enlace a política de recogida y tratamiento de cookies.</a>
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            </div>
+              <!-- Barra de Navegación-->
+          <header class="row">
+            <nav class="navbar navbar-expand-sm navbar-light bg-primary fixed-top mt-5"><a href="#" class="navbar-brand"> <img src="images/logotipo2.PNG" alt="imagen logo empresa" title="logo DIW-co" width="100" height="100"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#barra-navegacion" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Boton navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-text text-white mr-2 d-none d-sm-none d-md-block ">Tienda deportiva <br>Asegura tu bienestar <br/>con nosotros</span>
+            <div class="collapse navbar-collapse" id="barra-navegacion">
+                <ul class="navbar-nav mb-2 mb-lg-0 ml-sm-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Nuestra tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown droptop">
+                      <a class="nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">Noticias</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="acceso.html">Acceso Usuarios</a>
+                        <a class="dropdown-item" href="registro.html">Registrate</a>
+                        <a class="dropdown-item" href="carrito.html">Carrito de la compra</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown dropdown mr-5">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown">Contacto</a>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="contacto.html">¿Dónde estamos?</a>
+                          <a class="dropdown-item" href="#">Servicio al cliente</a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+              <form class="form-inline">
+                <input class="btn btn-warning gap-2 btn-sm m-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
+                <input class="btn btn-warning btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
+            </form>
+          </nav>
+          </header>
+          
+           <!-- Migas de pan -->
+          <header id="page-header" class="row">
+            <div class="col-12 pt-3 pb-3">
+                <div class="card ">
+                    <div class="card-body ">
+                        <div class="d-sm-flex align-items-center">
+                            <div class="mr-auto">
+                              <div class="page-context-header">
+                                <div class="page-header-headings">
+                                  <h1>Inicio</h1>
+                                </div>
+                              </div>
+                            </div>
+        
+                            <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap">
+                            <div id="page-navbar">
+                                <nav aria-label="Barra de navegación">
+                                  <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                      <a href="portada.html"  >Nuestra tienda</a>
+                                    </li>
+                                  </ol>
+                                </nav>
+                              </div>
+                              <div class="ml-auto d-flex">
+                            </div>
+                            <div id="course-header">    
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+           </header>
+          
+          
+
+            <!-- Migas de pan 
+            <div class="row mt-5">
+              <div class="col-12 col-sm-12 col-md-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li class="breadcrumb-item active" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+                        <a href="#" itemprop="item">
+                            <span itemprop="name">Inicio</span>
+                        </a>
+                        <meta itemprop="position" content="1">
+                    </li>
+                </ol>
+            </nav>
+          </div>
+          </div> -->
+
+            <!-- Slider -->
+            <section class="row justify-content-center mt-3">
+              <div class="col-md-9">
+                <div class="carousel carousel-dark slide" data-ride="carousel" id="micarousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#micarrusel" data-slide-to="0 " class="active"></li>
+                    <li data-target="#micarrusel" data-slide-to="1"></li>
+                    <li data-target="#micarrusel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/ice-climbing.jpg" alt="imagen escalando montaña" title="seguridad" class="d-block w-100 rounded"><div class="carousel-caption d-none d-sm-block  bg-primary rounded">Seguridad</div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                      <img src="images/girl.jpg" alt="imagen canoa" title="naturaleza" class="d-block w-100 rounded"><div class="carousel-caption d-none d-sm-block  bg-primary rounded">Naturaleza</div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/surfer.jpg" alt="surf" title="diversion" class="d-block w-100 rounded"><div class="carousel-caption d-none d-sm-block  bg-primary rounded">Diversión</div>
+                    </div>
+                  </div>
+                  <a href="#micarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                  <span class="sr-only">Anterior</span></a>
+                  <a href="#micarousel" class="carousel-control-next" data-slide="next" role="button"> <i class="fa fa-arrow-right" aria-hidden="true"></i> <span class="sr-only">Posterior</span></a>
+                </div>
+              </div>
+            </section>
+            <!-- Seccion de busqueda de productos -->
+            <section>
+              <div class="container mt-5">
+                <div class="row">
+                <div class="col-10 offset-1 col-sm-10 col-md-10 col-lg-10">
+                  <div class="input-group mb-3">
+                    <input type="text" id="busqueda" class="form-control border-dark" placeholder="Busca tu producto ...." aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    <button href="./ecommerce-coches-final/buscar.html" class="btn btn-outline-secondary ml-5" type="button" id="boton-buscar">Buscar</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </section>
+
+            <!-- Seccion de Productos Destacados-->
+            <section class="productos mt-3 mb-3 justify-content-around">
+              <h3 class="text-center text-md-start text-capitalize btn-info mb-5">Productos destacados</h3>
+              <!-- CARD-->
+              <div class="row text-center">
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card" >
+                    <img src="images/deportes6.jpg" alt="imagen card" title="bañador" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Bañador nuevo</h5>
+                      <p class="card-text text-center badge badge-info">35 €</p>
+                      <button type="button" class="btn btn-secondary" data-toogle="popover" title="Aproveche este producto" data-placement="right">Añadir al carrito</button>
+                    </div>
+                  </div>
+                </div>               
+
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card">
+                    <img src="images/deportes7.jpg" alt="imagen card" title="balón baloncesto" class="card-img-top img-fluid">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Balón de baloncesto nuevo</h5>
+                      <p class="card-text text-center  badge badge-info">60 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche este producto" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card">
+                    <img src="images/deportes8.jpg" alt="imagen card" title="raqueta tenis" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Raqueta de tenis</h5>
+                      <p class="card-text text-center  badge badge-info">150 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche este producto" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card">
+                    <img src="images/deportes9.jpg" alt="imagen card" title="pelotas tenis" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Pelotas de tenis nuevas</h5>
+                      <p class="card-text text-center  badge badge-info">60 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche este producto" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Seccion de productos baratos -->
+            <section class="productos2 mt-3 mb-3 justify-content-around">
+              <h3 class="text-center text-md-start text-capitalize btn-info mb-5">Productos más baratos</h3>
+              <!-- CARD-->
+              <div class="row text-center">
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card">
+                    <img src="images/deportes10.jpg" alt="imagen card" title="bolsa palos golf" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Bolsa de palos de golf nueva</h5>
+                      <p class="card-text text-center  badge badge-info">3000 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche esta oferta única" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card">
+                    <img src="images/deportes11.jpg" alt="imagen card" title="esquis seminuevos" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Esquis seminuevos</h5>
+                      <p class="card-text text-center  badge badge-info">140 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche esta oferta única" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card">
+                    <img src="images/deportes12.jpg" alt="imagen card" title="tabla snow" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Tabla de snow nueva</h5>
+                      <p class="card-text text-center  badge badge-info">220 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche esta oferta única" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card">
+                    <img src="images/deportes13.jpg" alt="imagen card" title="caña de pescar" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Caña de pescar nueva</h5>
+                      <p class="card-text text-center  badge badge-info">400 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche esta oferta única" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Seccion de productos de oferta-->
+            <section class="productos3 mt-3 mb-3 justify-content-around">
+
+            </section>
+
+             <!-- PIE DE PÁGINA  -->
+        <footer class="row bg-primary justify-content-center mt-3 p-3">
+          <div class="col-12 col-md-6 w-100">
+            <p class="text-center text-white">DIW&co Todos los derechos reservados</p>
+          </div>
+          <div class="col-12 col-md-12 text-center mb-3"> 
+            <a href="../index.html" class="text-dark">Acceso ecommerce-coches</a> |
+            <a href="nosotros.html" class="text-dark">Acerca de</a> |
+            <a href="contacto.html" class="text-dark">Contacto</a>
+          </div>
+          <div class="col-12 col-md-12 text-center mb-3 mt-3 position-relative">
+             <h6>33008, Calle Mateo II, SPA</h6>
+             <img src="images/logotipo2.PNG" alt="logo empresa" title="logo DIW-co" width="100" height="100"/>
+             <p class="text-center"><i class="fa fa-phone" aria-hidden="true"></i>
+              +923042275725
+            </p>
+            <p class="text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+              diwandco@gmail.com
+            </p>
+          </div>
+          <div class="col-12 col-md-12 mb-3 mt-3">
+            <nav class="nav m-2 justify-content-center badge-warning rounded">
+              <a  href="https://www.facebook.com" target="_blank" class="nav-link"><i class="fa fa-facebook text-center" aria-hidden="true"></i></a>
+              <a href="https://www.twitter.com" target="_blank" class="nav-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com" target="_blank" class="nav-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com" target="_blank" class="nav-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </nav>
+          </div>
+      </footer>
+      
+      <!-- VENTANA MODAL DE LOGIN -->
+      <section class="modal" id="entrar">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <div class="modal-title">
+                        Entra en sesión
+                    </div>
+                    <span data-dismiss="modal">X</span>
+                </div>
+                <form>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tu email">
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña:</label>
+                            <input type="password" class="form-control" placeholder="Introduce tu contraseña">
+                        </div>     
+                    </div>
+                    <div class="modal-footer text-right">
+                        <input type="submit" class="btn btn-warning" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+            <!-- VENTANA MODAL DE REGISTRO -->
+      <section class="modal" id="registro">
+        <div class="modal-dialog">
+            <form>
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <div class="modal-title">
+                            Registro de usuario
+                        </div>
+                        <span data-dismiss="modal">X</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Nombre:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Apellidos:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tus apellidos" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" placeholder="Introduce tu correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña:</label>
+                            <input type="password" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Sexo:</label>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-warning mr-3">
+                                    <input type="radio" name="sexo" id="V">Hombre
+                                </label>
+                                <label class="btn btn-warning">
+                                        <input type="radio" name="sexo" id="M">Mujer
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer text-right">
+                        <input type="submit" class="btn btn-warning" value="Registrar">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    </div>
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      });
+      $(function(){
+      $(".modal").on("hide.bs.modal",function(){
+        alert("SE CERRARA ESTA VENTANA")
+      });
+      
+    });
+    </script>
+    <!-- Script que usando la funcion .keypress() obiene el evento de pulsar las teclas en la barra de busqueda de producto, capturando la clase con .attr('class'), luego modificamos el color en funcion de que pulsemos teclas o no-->
+    <script>
+      $(function(){
+        $("#busqueda").keypress(function(){
+          var clase=$('#boton-buscar').attr('class');
+        if(clase.includes("btn-outline-secondary")){
+          $('#boton-buscar').removeClass('btn-outline-secondary');
+        $('#boton-buscar').addClass('btn-warning');
+        }else{
+          $("#boton-buscar").removeClass('btn-warning');
+          $("#boton-buscar").addClass('btn-outline-secondary');
+        }
+      });
+      })
+    </script>
+</body>
+</html>
