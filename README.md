@@ -1,6 +1,7 @@
 
 DISEÑO DE INTERFACES WEB
-Inclusión de contenido multimedia y/o interactivo
+
+  Inclusión de contenido multimedia y/o interactivo
 • Estudio de accesibilidad inicial del proyecto
 • Diseño del proyecto web usable
 • Desarrollo del proyecto web usable (adaptativo)
