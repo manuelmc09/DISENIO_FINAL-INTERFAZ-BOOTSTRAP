@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./ecommerce-coches-final/css/bootstrap.min.css" type="text/css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./ecommerce-coches-final/css/styles.css">
+    <!-- Awesome font  -->
+    <link rel="stylesheet" href="./ecommerce-coches-final/css/font-awesome.css">
+    <link rel="stylesheet" href="./ecommerce-coches-final/css/font-awesome.min.css">
+    <title>Portada coches</title>
+</head>
+<body>
+<div class="container m-3 p-5"></div>
+
+<div class="container-fluid mt-5">
+        <!-- Alerta antes de la barra de navegación -->
+        <div class="alert alert-dismissible fade show alert-warning fixed-bottom">
+          Aviso de Cookies: Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. Si acepta o continúa navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información aquí <a href="#">Enlace a política de recogida y tratamiento de cookies.</a>
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        </div>
+          <!-- Barra de Navegación-->
+        <header class="row"> 
+          <nav class="navbar navbar-expand-sm navbar-light bg-primary fixed-top mt-5"><a href="#" class="navbar-brand"> <img src="./ecommerce-coches-final/images/logotipo2.PNG" alt="imagen logo empresa" title="logo DIW-co" width="100" height="100"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#barra-navegacion" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Boton navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-text text-white mr-2 d-none d-sm-none d-md-block">Coches nuevos y de ocasión <br> Asegura tu bienestar con nosotros</span>
+            <div class="collapse navbar-collapse" id="barra-navegacion">
+                <ul class="navbar-nav mb-2 mb-lg-0 ml-sm-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Nuestra tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ecommerce-coches-final/nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown droptop">
+                      <a class="nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">Noticias</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./ecommerce-coches-final/acceso.html">Acceso Usuarios</a>
+                        <a class="dropdown-item" href="./ecommerce-coches-final/registro.html">Registrate</a>
+                        <a class="dropdown-item" href="./ecommerce-coches-final/carrito.html">Carrito de la compra</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown">Contacto</a>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="./ecommerce-coches-final/contacto.html">¿Dónde estamos?</a>
+                          <a class="dropdown-item" href="./ecommerce-coches-final/buscar.html">Servicio al cliente</a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+              <input class="btn btn-warning gap-2 btn-sm m-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
+              <input class="btn btn-warning btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
+          </form>
+            </nav>
+          </header> 
+
+                            <!-- Migas de pan -->
+          <header id="page-header" class="row">
+            <div class="col-12 pt-3 pb-3">
+                <div class="card ">
+                    <div class="card-body ">
+                        <div class="d-sm-flex align-items-center">
+                            <div class="mr-auto">
+                              <div class="page-context-header">
+                                <div class="page-header-headings">
+                                  <h1>Inicio</h1>
+                                </div>
+                              </div>
+                            </div>
+        
+                            <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap">
+                            <div id="page-navbar">
+                                <nav aria-label="Barra de navegación">
+                                  <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                      <a href="index.html"  >Nuestra tienda</a>
+                                    </li>
+                                  </ol>
+                                </nav>
+                              </div>
+                              <div class="ml-auto d-flex">
+                            </div>
+                            <div id="course-header">    
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+           </header>
+        
+            <!-- Migas de pan -->
+            <!-- 
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li class="breadcrumb-item active" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+                        <a href="#" itemprop="item">
+                            <span itemprop="name">Inicio</span>
+                        </a>
+                        <meta itemprop="position" content="1">
+                    </li>
+                </ol>
+            </nav> -->
+           
+            <!-- Slider -->
+            <section class="row justify-content-center">
+                <div class="col-md-9">
+                  <div class="carousel carousel-dark slide" data-ride="carousel" id="micarousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#micarrusel" data-slide-to="0 " class="active"></li>
+                      <li data-target="#micarrusel" data-slide-to="1"></li>
+                      <li data-target="#micarrusel" data-slide-to="2"></li>
+                      <li data-target="#micarrusel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./ecommerce-coches-final/images/automobile-1.jpg" alt="imagen automobile 1" title="automobile 1" class="d-block w-100 rounded"><div class="carousel-caption d-none d-sm-block  bg-primary rounded">Seguridad</div>
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <img src="./ecommerce-coches-final/images/automobile-2.jpg" alt="imagen automobile 2" title="automobile 2" class="d-block w-100 rounded"><div class="carousel-caption d-none d-sm-block  bg-primary rounded">Naturaleza</div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./ecommerce-coches-final/images/automobile-3.jpg" alt="imagen automobile 3" title="automobile 3" class="d-block w-100 rounded"><div class="carousel-caption d-none d-sm-block  bg-primary rounded">Diversión</div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./ecommerce-coches-final/images/automobile-4.jpg" alt="automobile 4" title="automobile 4"  class="d-block w-100 rounded"><div class="carousel-caption d-none d-sm-block  bg-primary rounded">Precios Inmejorables</div>
+                      </div>
+                    </div>
+                    <a href="#micarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                      <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    <span class="sr-only">Anterior</span></a>
+                    <a href="#micarousel" class="carousel-control-next" data-slide="next" role="button"> <i class="fa fa-arrow-right" aria-hidden="true"></i> <span class="sr-only">Posterior</span></a>
+                  </div>
+                </div>
+              </section>
+          <!-- Seccion de busqueda de productos -->
+          <section>
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-10 offset-1 col-sm-10 col-md-10 col-lg-10">
+                  <div class="input-group mb-3">
+                    <input type="text" id="busqueda" class="form-control border-dark" placeholder="Busca tu producto ...." aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    <button href="./ecommerce-coches-final/buscar.html" class="btn btn-outline-secondary ml-5" type="button" id="boton-buscar">Buscar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Seccion de Productos Destacados-->
+          <section class="productos mt-3 mb-3 justify-content-around">
+            <h3 class="text-center text-md-start text-capitalize btn-info mb-5">Productos destacados</h3>
+            <!-- CARD-->
+            <div class="row text-center">
+              <!-- Primer producto -->
+              <div class="col-12 col-sm-6 col-md-3 col-md-3 col-lg-3 d-block m-auto">
+                <div class="card" id="coche1">
+                  <img src="./ecommerce-coches-final/images/coche1.jpg" alt="imagen 1 card" title="coche 1 nuevo" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Coche 1 nuevo</h5>
+                    <p class="card-text text-center  badge badge-info">10.000 €</p>
+                    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#compra_id" data-placement="right" >Añadir al carrito</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Segundo producto -->
+              <div class="col-12 col-sm-6 col-md-3 col-md-3 col-lg-3 d-block m-auto">
+                <div class="card" id="coche2">
+                  <img src="./ecommerce-coches-final/images/automobile-7.jpg" alt="imagen 2 card" title="coche 2 seminuevo" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Coche 2 seminuevo</h5>
+                    <p class="card-text text-center  badge badge-info">12.000 €</p>
+                    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#compra_id" data-placement="right" >Añadir al carrito</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Tercer producto -->
+              <div class="col-12 col-sm-6 col-md-3 col-md-3 col-lg-3 d-block m-auto">
+                <div class="card" id="coche3">
+                  <img src="./ecommerce-coches-final/images/coche5.jpg" alt="imagen 3 card" title="coche 3 nuevo" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Coche 3 nuevo</h5>
+                    <p class="card-text text-center  badge badge-info">14.000 €</p>
+                    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#compra_id" data-placement="right" >Añadir al carrito</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cuarto producto -->
+              <div class="col-12 col-sm-6 col-md-3 col-md-3 col-lg-3 d-block m-auto">
+                <div class="card" id="coche4">
+                  <img src="./ecommerce-coches-final/images/automobile-5.jpg" alt="imagen 4 card" title="coche 4 seminuevo" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Coche 3 seminuevo</h5>
+                    <p class="card-text text-center  badge badge-info">8.000 €</p>
+                    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#compra_id" data-placement="right" >Añadir al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+            <!-- Seccion de coches mas baratos -->
+            <section class="productos2 mt-3 mb-3 justify-content-around">
+              <h3 class="text-center text-md-start text-capitalize btn-info mb-5">Los más baratos</h3>
+              <!-- CARD-->
+              <div class="row text-center">
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card" id="coche5">
+                    <img src="./ecommerce-coches-final/images/automobile-6.jpg" alt="imagen 5 card" title="coche 5 nuevo" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Coche 5 nuevo</h5>
+                      <p class="card-text text-center  badge badge-info">7.000 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#compra_id" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card" id="coche6">
+                    <img src="./ecommerce-coches-final/images/automobile-3B.jpg" alt="imagen 6 card" title="coche 6 seminuevo" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Coche 6 seminuevo</h5>
+                      <p class="card-text text-center  badge badge-info">6.000 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#compra_id" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card" id="coche7">
+                    <img src="./ecommerce-coches-final/images/automobile-4B.jpg" alt="imagen 7 card" title="coche 7 seminuevo" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Coche 7 seminuevo</h5>
+                      <p class="card-text text-center  badge badge-info">5.500 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#compra_id" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-3 col-sm-6 d-block m-auto">
+                  <div class="card" id="coche8">
+                    <img src="./ecommerce-coches-final/images/automobile-8.jpg" alt="imagen 8 card" title="coche 8 seminuevo" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Coche 8 seminuevo</h5>
+                      <p class="card-text text-center  badge badge-info">7.500 €</p>
+                      <a href="#" class="btn btn-secondary" data-toggle="popover" title="Aproveche esta oferta única" data-placement="right" >Añadir al carrito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+           <!-- PIE DE PÁGINA  -->
+        <footer class="row bg-primary justify-content-center mt-3 p-3">
+            <div class="col-12 col-md-6 w-100">
+              <p class="text-center text-white">DIW&co Todos los derechos reservados</p>
+            </div>
+            <div class="col-12 col-md-12 text-center mb-3"> 
+              <a href="./ecommerce-deportes-final/portada.html" class="text-dark">Acceso ecommerce-deportes</a> |
+              <a href="./ecommerce-coches-final/nosotros.html" class="text-dark">Acerca de</a> |
+              <a href="./ecommerce-coches-final/contacto.html" class="text-dark">Contacto</a>
+            </div>
+            <div class="col-12 col-md-12 text-center mb-3 mt-3 position-relative">
+               <h6>33008, Calle Mateo II, SPA</h6>
+               <img src="./ecommerce-coches-final/images/logotipo2.PNG" alt="logo empresa" title="logo DIW-co" width="100" height="100"/>
+               <p class="text-center"><i class="fa fa-phone" aria-hidden="true"></i>
+                +923042275725
+              </p>
+              <p class="text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                diwandco@gmail.com
+              </p>
+            </div>
+            <div class="col-12 col-md-12 mb-3 mt-3">
+              <nav class="nav m-2 justify-content-center badge-warning rounded">
+                <a  href="https://www.facebook.com" target="_blank" class="nav-link"><i class="fa fa-facebook text-center" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="nav-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="nav-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="nav-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </nav>
+            </div>
+        </footer>
+
+
+               <!-- VENTANA MODAL DE LOGIN -->
+      <section class="modal" id="entrar">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <div class="modal-title">
+                        Entra en sesión
+                    </div>
+                    <span data-dismiss="modal">X</span>
+                </div>
+                <form>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tu email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña:</label>
+                            <input type="password" class="form-control" placeholder="Introduce tu contraseña" id="password">
+                        </div>     
+                    </div>
+                    <div class="modal-footer text-right">
+                        <input type="submit" class="btn btn-warning" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+            <!-- VENTANA MODAL DE REGISTRO -->
+      <section class="modal" id="registro">
+        <div class="modal-dialog">
+            <form>
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <div class="modal-title">
+                            Registro de usuario
+                        </div>
+                        <span data-dismiss="modal">X</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tu nombre" id="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tus apellidos" id="apellidos" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Email:</label>
+                            <input type="email" class="form-control" placeholder="Introduce tu correo electrónico" id="correo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Contraseña:</label>
+                            <input type="password" class="form-control" id="password2" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="sexo">Sexo:</label>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-warning mr-3" for="V">
+                                    <input type="radio" name="sexo" id="V">Hombre
+                                </label>
+                                <label class="btn btn-warning" for="M">
+                                        <input type="radio" name="sexo" id="M">Mujer
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer text-right">
+                        <input type="submit" class="btn btn-warning" value="Registrar">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        </section>
+        
+                            <!-- VENTANA MODAL DE COMPRA -->
+              <section class="modal" id="compra_id">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary text-white">
+                            <div class="modal-title">
+                                Realizar la compra
+                            </div>
+                            <span data-dismiss="modal">X</span>
+                        </div>
+                        <form>
+                            <div class="modal-body">
+        
+                                <div class="form-group">
+                                    <label class="border p-2 btn-info rounded">Dirección de envio</label> <hr>
+                                    <label>Nombre:</label>
+                                    <input type="text" class="form-control" id="inputnombre" placeholder="Introduce tu Nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Apellidos:</label>
+                                    <input type="text" class="form-control" id="inputapellidos" placeholder="Introduce tus Apellidos" required>
+                                </div>     
+                                <div class="form-group">
+                                  <label>Dirección:</label>
+                                  <input type="text" class="form-control" id="inputdireccion" placeholder="Introduce tu Dirección de envio" required>
+                                </div>  
+                                <div class="form-group">
+                                  <label>País:</label>
+                                  <input type="text" class="form-control" id="inputpais" placeholder="País" required>
+                                </div>
+                                <div class="form-group">
+                                  <label>Ciudad:</label>
+                                  <input type="text" class="form-control" id="inputciudad" placeholder="Ciudad" required>
+                                </div> 
+                                <div class="form-group">
+                                  <label>CP:</label>
+                                  <input type="text" class="form-control" id="inputcp" placeholder="Codigo Postal" required>
+                                </div>
+                                <div class="form-group">
+                                  <label>Telefono:</label>
+                                  <input type="text" class="form-control" id="inputtelefono" placeholder="Telefono" required>
+                                </div>   
+                                <div class="form-group">
+                                  <label class="border p-2 btn-info rounded">Tarjeta de credito</label> <hr>
+                                  <label>Numero de tarjeta:</label>
+                                  <input type="text" class="form-control" id="inputtarjeta" placeholder="0000 0000 0000 0000" required>
+                                </div>    
+                                <div class="form-group">
+                                  <label>Caducidad:</label>
+                                  <input type="text" class="form-control" id="inputcaduca" placeholder="MM / AA" required>
+                                </div>  
+                                <div class="form-group">
+                                  <label>Nombre completo propietario:</label>
+                                  <input type="text" class="form-control" id="inputpropiedad" placeholder="Propietario de la tarjeta" required>
+                                </div> 
+                            </div>
+                            <div class="modal-footer text-right">
+                                <input type="submit" class="btn btn-warning" value="Comprar" id="boton-comprar">
+                                <input type="reset" class="btn btn-secondary" value="Cancelar">
+                             
+                            </div>      
+                        </form>
+                    </div>
+                </div>
+            </section>
+        
+        
+             
+</div>
+  
+      
+  
+      <!-- Optional JavaScript; choose one of the two! -->
+  
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+  
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <script src="./ecommerce-coches-final/js/jquery-3.3.1.min.js"></script>
+      <script src="./ecommerce-coches-final/js/popper.min.js"></script>
+      <script src="./ecommerce-coches-final/js/bootstrap.min.js"></script>
+      <script>
+  
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        });
+        $(function(){
+        $(".modal").on("hide.bs.modal",function(){
+          alert("SE CERRARA ESTA VENTANA")
+        })
+      });
+    
+      </script>
+
+       <!-- Script que usando la funcion .keypress() obiene el evento de pulsar las teclas en la barra de busqueda de producto, capturando la clase con .attr('class'), luego modificamos el color en funcion de que pulsemos teclas o no-->
+       <script>
+         $(function(){
+           $("#busqueda").keypress(function(){
+             var clase=$('#boton-buscar').attr('class');
+           if(clase.includes("btn-outline-secondary")){
+             $('#boton-buscar').removeClass('btn-outline-secondary');
+           $('#boton-buscar').addClass('btn-warning');
+           }else{
+             $("#boton-buscar").removeClass('btn-warning');
+             $("#boton-buscar").addClass('btn-outline-secondary');
+           }
+         });
+         })
+       </script>
+       <script>
+        $(function(){
+          $("input[type=reset]").click(function(){
+            alert("ESTA SEGURO QUE QUIERE CANCELAR ESTA OPERACION");
+            $("#compra_id").modal('hide')
+          })
+        })
+      </script>
+      <!-- Script que da funcionalidad a las imagenes de productos destacados -->
+      <script>
+        $(function(){
+          $("#coche1").on('mouseenter',function(){
+            $("#coche1 img").css("opacity","0.5");
+            $("#coche1").append('<div><h6>¡¡PRUEBALO HOY SIN COMPROMISO!!</h6></div>');
+            $("#coche1 h6").addClass("card-footer mb-2")
+            
+          })
+          $("#coche1").on('mouseleave',function(){
+            $("#coche1 img").css("opacity","1");
+            $("#coche1 h6").remove()
+          });
+        })
+        $(function(){
+          $("#coche2").on('mouseenter',function(){
+            $("#coche2 img").css("opacity","0.5");
+            $("#coche2").append('<div><h6>¡¡PRUEBALO HOY SIN COMPROMISO!!</h6></div>');
+            $("#coche2 h6").addClass("card-footer mb-2")
+            
+          })
+          $("#coche2").on('mouseleave',function(){
+            $("#coche2 img").css("opacity","1");
+            $("#coche2 h6").remove()
+          });
+        })
+        $(function(){
+          $("#coche3").on('mouseenter',function(){
+            $("#coche3 img").css("opacity","0.5");
+            $("#coche3").append('<div><h6>¡¡PRUEBALO HOY SIN COMPROMISO!!</h6></div>');
+            $("#coche3 h6").addClass("card-footer mb-2")
+            
+          })
+          $("#coche3").on('mouseleave',function(){
+            $("#coche3 img").css("opacity","1");
+            $("#coche3 h6").remove()
+          });
+        })
+        $(function(){
+          $("#coche4").on('mouseenter',function(){
+            $("#coche4 img").css("opacity","0.5");
+            $("#coche4").append('<div><h6>¡¡PRUEBALO HOY SIN COMPROMISO!!</h6></div>');
+            $("#coche4 h6").addClass("card-footer mb-2")
+            
+          })
+          $("#coche4").on('mouseleave',function(){
+            $("#coche4 img").css("opacity","1");
+            $("#coche4 h6").remove()
+          });
+        })
+        </script>
+  </body>
+  </html>
